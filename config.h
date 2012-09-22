@@ -14,13 +14,16 @@
 #define BAR_FONT       "-Misc-Stlarch-Medium-R-Normal--10-100-75-75-C-80-ISO10646-1", \
                        "-*-terminus-medium-r-normal-*-12-*-*-*-c-*-iso10646-1"
 /* Color palette */
-#define COLOR1	0xddeedd
-#define COLOR0	0x131313
-#define COLOR2	0x222222
-#define COLOR3	0xc5000b
-#define COLOR4	0x579d1c
-#define COLOR5	0xff420e
-#define COLOR6	0x0066cc
-#define COLOR7	0x9c3885
-#define COLOR8	0x426870
-#define COLOR9	0xe2e2e5
+#define COLOR0	0x222222 /* black - bg */
+#define COLOR1	0xE2E2E5 /* white - fg */
+#define COLOR2	0x579D1C /* green      */
+#define COLOR3	0xFF420E /* yellow     */
+#define COLOR4	0x0066CC /* blue       */
+#define COLOR5	0x9C3885 /* magenta    */
+#define COLOR6	0x426870 /* cyan       */
+#define COLOR7	0xC5000B /* red        */
+
+// #17A #40C1D8 #007799
+#define COLOR8	0x40C1D8 /* extra */
+#define COLOR9	0x1177AA /* extra */
+
